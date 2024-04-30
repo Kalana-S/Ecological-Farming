@@ -1,4 +1,4 @@
-# Ecological-Farming-
+# Ecological-Farming
 Simple website about Ecological Farming.
 
 1. Copy and paste the 'EcologicalFarming' folder into your 'www' folder in 'wamp64'.
