@@ -1,33 +1,32 @@
 # Ecological-Farming-
 Simple website about Ecological Farming.
 
-Copy and paste the 'EcologicalFarming' folder into your 'www' folder in 'wamp64'.
+1. Copy and paste the 'EcologicalFarming' folder into your 'www' folder in 'wamp64'.
 
-
-In Google Chrome, where users paste URLs, type localhost/EcologicalFarming.
-
-
+2. In Google Chrome, where users paste URLs, type localhost/EcologicalFarming.
 Then the website's home page will display.
 
+3. You can register user details using the register form on the home page and log in to this system using your registered email and password.
 
-You can register user details using the register form on the home page and log in to this system using your registered email and password.
+4. Also, you can log in to this system using the below data as well. 
 
+    - If  you want to logging as an Admin
 
-Also, you can log in to this system using the below data as well. 
+        fill email:  admin@gmail.com
 
-       If  you want to logging as an Admin 
-                           fill     email:  admin@gmail.com
-				         password:  111
+        password:  111
 
-       If  you want to logging as a Field Officer  
-                                  fill     email:  field@gmail.com
-				                password:  111
+    - If  you want to logging as a Field Officer 
 
-       If  you want to logging as a Farmer  
-                            fill     email:  farmer@gmail.com
-				          password:  111
+        fill     email:  field@gmail.com
+        
+        password:  111
 
+    - If  you want to logging as a Farmer 
 
-I added the above user details directly to this system to improve the first user experience. 
+        fill     email:  farmer@gmail.com
 
+        password:  111
+
+5. I added the above user details directly to this system to improve the first user experience. 
 However, you can register new users and log in to this system as well.
