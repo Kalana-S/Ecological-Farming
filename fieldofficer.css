@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+@keyframes startupAnimation {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-family: monospace;
+}
+body{
+    animation-name: startupAnimation;
+    animation-duration: 3s;
+    line-height: 1.6;  
+    background-color: #fff;
+    background-image: linear-gradient(to right, #810d0d, #0989a9);
+}
+
+header{
+    background-color: #ae00f2;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.topic h2{
+    text-align: start;
+    font-style: italic;
+    color: #0beaee;
+    text-decoration: underline;
+    padding-left: 40px;
+}
+
+.content{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+h3{
+    color: #ae00f2;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.description{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.desdiv{
+    margin-top: 25px;
+    border:3px solid;
+    border-radius: 20px;
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 40px;
+}
+.desdiv p{
+    font-size: 18px;
+}
+
+.queries {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.queries table {
+    margin-top: 25px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.queries th, .queries td {
+    border: 2px solid #fff;
+    padding: 8px;
+    text-align: left;
+    color: #fff; 
+}
+.queries th {
+    font-weight: bold;
+}
+
+.answer h3{
+    margin-bottom: 30px;
+}
+.answer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.answer h4{
+    color: red;
+    font-size: 20px;
+    font-family: monospace;
+}
+.anwform{
+    width:40%;
+    background: transparent;
+    border: 3px solid #fff;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 30px 40px;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.anwform .inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.anwform .inputbox input::placeholder,
+.textarea::placeholder {
+    color: #fff;
+}
+.inputbox i{
+    position: absolute;
+    right: 20px;
+    top: 50%; 
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.textarea{
+    width: 100%;
+    height:65px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.answer .btn{
+    width: 100px;
+    height: 45px;
+    margin-top: 30px;
+    background: #053bc4;
+    border-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1);
+}
